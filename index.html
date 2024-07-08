@@ -9,7 +9,7 @@
         .nice
         {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color: brown;
+            color: rgb(215, 152, 152);
         }
      </style>
     </head>
@@ -39,6 +39,14 @@
         //DOM
         var DateText=document.getElementById("Date");
         DateText.style.fontFamily="default";
+
+        var el=document.getElementById("default");
+        el.classList.add("nice");
+        el.classList.remove("nice");
+        el.classList.toggle("nice");
+        if (el.classList.contains("nice")) {
+            alert("The element contains the 'nice' class.");
+        }
     </script>
     <hr>
     <p>This is the footer - all rights are reserved to me.</p>
