@@ -5,12 +5,19 @@
     <head>
      <title> Hana Banana</title> 
      <link rel="stylesheet" href="style.css"/>
+     <style>
+        .nice
+        {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: brown;
+        }
+     </style>
     </head>
     <body>
         <!--imgs dont wanna download-->
         <img src="12th.jpeg" width="900px" onload="alert('OMFG WHATS THAT??HANA GET OVER IT TF')" alt="failed potential">
         <!--imgs dont wanna download-->
-    <h1>Told you I will be back home</h1>
+    <h1 id="default">Told you I will be back home</h1>
     <h4>It's been long</h4>
     <h6>yours,</h6>
     <h6>Hana Banana</h6>
@@ -21,13 +28,18 @@
     <br>
     <br>
     <br>
-    <p>here's a list of all the stuff i give a fuck about :</p>
+    <p class="nice">here's a list of all the stuff i give a fuck about :</p>
     <ol type="1">
     <li>none</li>
     <li>still none</li>
     <li>zero</li>
     <li>NONE</li>
     </ol>
+    <script>
+        //DOM
+        var DateText=document.getElementById("Date");
+        DateText.style.fontFamily="default";
+    </script>
     <hr>
     <p>This is the footer - all rights are reserved to me.</p>
     </body>
