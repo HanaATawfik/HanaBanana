@@ -18,7 +18,7 @@
             color: rgb(250, 92, 13);    
          }
          .strongblue > strong {
-          color: blue;    
+          color: rgb(104, 247, 10);    
          }
            .strongblue span {
           color: rgb(152, 45, 129);    
@@ -31,6 +31,24 @@
          }
          p.nice:hover {
             background-color: yellow;
+         }
+         .f:target{
+            background-color: pink;
+         }
+         .li1:active{
+                font-weight: bold ;
+               }
+         .li2:active{
+                font-weight: bold ;
+               }
+         .li3:active{
+                font-weight: bold ;
+               }
+         .s:target{
+            background-color: rgb(17, 111, 62);
+         }
+         .t:target{
+            background-color: rgb(59, 48, 7);
          }
      </style>
     </head>
@@ -51,13 +69,21 @@
     <a href="#Date">When was this first built?</a>
     <br>
     <br>
+    <p>
+        <a href="#first">First Section</a>
+        <a href="#second">Second Section</a>
+        <a href="#third">Third Section</a>
+    </p>
+    <p id="first" class="f">This is the text of the first section.</p>
+    <p id="second" class="s">This is the text of the second section.</p>
+    <p id="third"  class="t">This is the text of the third section.</p>
     <br>
     <p class="nice">here's a list of all the stuff i give a fuck about :</p>
     <ol type="1">
-    <li>none</li>
-    <li>still none</li>
-    <li>zero</li>
-    <li>NONE</li>
+    <li class="li1">none</li>
+    <li class="li2">still none</li>
+    <li class="li3">zero</li>
+    <li class="li4">NONE</li>
     </ol>
     <script>
         //DOM
