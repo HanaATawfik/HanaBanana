@@ -10,9 +10,44 @@ body{
     align-items: center;
     color: rgb(255, 255, 255);
     font-family: sans-serif;
-    font-size: 3.7vw; /* Font size that adjusts with the viewport width */
+    font-size: 7vmin; /* Font size that adjusts with the viewport width */
     margin: 0;
     text-align: center;
     width: 100%;
     padding: 2vmin; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 150fr 300fr ;
+    gap: 10vmin;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding-left: 24vmin;
+    padding-right: 10vmin;
+    justify-items: center;
+
+}
+
+.list1{
+    display:list-item;
+    color: rgb(255, 255, 255);
+    font-size: 5vmin;
+    padding-left: 0vmin;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.list2{
+    display:list-item;
+    color: rgb(255, 255, 255);
+    font-size: 5vmin;
+    text-align: center;
+    padding-right: 10vmin;
+    margin: 0;
+    padding:0;
 }
