@@ -6,11 +6,10 @@ body{
 
 .header
 {
-    font-size: 50px;
     color: rgb(255, 255, 255);
     font-family: sans-serif;
     margin-left: 440px;
-    font-size: 3.5vw; /* Font size that adjusts with the viewport width */
+    font-size: 3.7vw; /* Font size that adjusts with the viewport width */
     margin: 0;
     text-align: center;
     width: 100%;
