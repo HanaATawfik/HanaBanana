@@ -1,0 +1,18 @@
+body{
+    background-color: #88364f;
+    display: flex;
+    height: 100%;
+}
+
+.header
+{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin-left: 440px;
+    font-size: 3.5vw; /* Font size that adjusts with the viewport width */
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    padding: 2vmin; 
+}
