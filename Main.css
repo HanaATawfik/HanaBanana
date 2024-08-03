@@ -19,15 +19,14 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 150fr 300fr ;
-    gap: 10vmin;
+    grid-template-columns: 1fr 1fr ;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     margin: 0;
-    padding-left: 24vmin;
+   /* padding-left: 24vmin;
     padding-right: 10vmin;
-    justify-items: center;
+   /* justify-items: center;*/
 
 }
 
@@ -38,8 +37,7 @@ body{
     padding-left: 0vmin;
     text-align: center;
     margin: 0;
-    padding: 0;
-
+    padding-right: 11vmin;
 }
 
 .list2{
@@ -47,7 +45,6 @@ body{
     color: rgb(255, 255, 255);
     font-size: 5vmin;
     text-align: center;
-    padding-right: 10vmin;
+    padding-left: 13vmax;
     margin: 0;
-    padding:0;
 }
