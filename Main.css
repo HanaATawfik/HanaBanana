@@ -60,8 +60,11 @@ body{
     font-weight: bold;
 }
 a:hover{
-    color: rgb(134, 101, 10);
+    color: rgba(134, 101, 10, 0.361);
 }
 a:visited {
     color: rgb(134, 101, 10);
+}
+a{
+    color:white;
 }
