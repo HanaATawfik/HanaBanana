@@ -24,8 +24,8 @@ body{
     justify-content: space-between;
     text-align: center;
     margin-top: 0px;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 6%;
+    margin-right: 6%;
     background-color: #380404;
     padding-left: 0%;
     padding-top:7% ;
@@ -41,10 +41,10 @@ body{
     display:list-item;
     color: rgb(255, 255, 255);
     font-size: 5vmin;
-    padding-left: 0vmin;
+    padding-left: 0%;
     text-align: center;
     margin: 0;
-    padding-right: 11vmin;
+    padding-right: 13%;
 }
 
 .list2{
@@ -52,7 +52,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: 5vmin;
     text-align: center;
-    padding-left: 13vmax;
+    /*padding-left: 13vmax;*/
     margin: 0;
 }
 .list1 , .list2 {
