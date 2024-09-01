@@ -1,6 +1,8 @@
 body{
     background-color: #88364f;
-    height: 100%
+    height: 100vh;
+    margin:0px;
+    width:100%;
 }
 
 .header
