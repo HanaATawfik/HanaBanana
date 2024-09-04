@@ -3,8 +3,24 @@ body{
     width:100%;
     height:100vh;
     margin:0;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
     }
 label{
         display:block;
         margin:0.5rem 0;
       }
+#got{
+  color:#380404;
+  font-size:68px;
+  margin-left: 20px;
+  padding-right: 30px;
+  padding-left: 10px;
+}
+#reach{
+  color:white;
+  font-size:70px;
+  margin-top: -80px ;
+  margin-left: 100px;
+}
