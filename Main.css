@@ -81,10 +81,11 @@ a{
     font-weight:lighter;
     text-align: center;
     font-size: 1rem;
-    padding-top: 35px;
+    padding-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    overflow:hidden;
     
 }
