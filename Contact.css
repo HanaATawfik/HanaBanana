@@ -6,7 +6,7 @@ body{
     font-family: sans-serif;
     color: rgb(255, 255, 255);
     font-size: 24px;
-    overflow:hidden;
+    overflow:auto;
     }
 label{
         display:block;
@@ -14,16 +14,20 @@ label{
       }
 #got{
   color:#380404;
-  font-size:68px;
+  font-size:70px;
   margin-left: 20px;
   padding-right: 30px;
   padding-left: 10px;
+  font-weight: bolder;
+  
 }
 #reach{
   color:white;
   font-size:70px;
   margin-top: -80px ;
   margin-left: 100px;
+  font-style: italic;
+  filter:blur(1.5px);
 }
 form{
   margin:0 auto;
@@ -40,9 +44,11 @@ form{
   border-radius: 30px;
   border-color: #38040468;
   border-style:solid;
-  color: bisque;
+  color: rgb(198, 135, 135);
   vertical-align:middle;  
   height:2em;
+  box-shadow:0 0 50px 20px #720425;
+  font-weight: bold;
 }
 fieldset{
   border-style:solid;
@@ -59,4 +65,5 @@ input,textarea{
   border-radius: 8px;
   color:white;
   min-height:2em;
+  box-shadow:0 0 3px 3px #64182f;
 }
