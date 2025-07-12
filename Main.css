@@ -1,4 +1,5 @@
 body{
+    cursor: url('https://cdn.custom-cursor.com/db/22126/32/color-pixels-banana-cursor.png'), default;
     background-color: #88364f;
     height: 100vh;
     margin:0px;
@@ -89,3 +90,6 @@ a{
     overflow:hidden;
     
 }
+a, button, [role="button"], input[type="submit"], input[type="button"] {
+    cursor: url('https://cdn.custom-cursor.com/db/22125/32/color-pixels-banana-pointer.png'), pointer;
+  }
