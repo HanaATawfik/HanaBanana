@@ -70,3 +70,17 @@ input,textarea{
 a, button, [role="button"], input[type="submit"], input[type="button"] {
   cursor: url('https://cdn.custom-cursor.com/db/22125/32/color-pixels-banana-pointer.png'), pointer;
 }
+.spotify-corner {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  width: 350px;
+  height: 80px;
+  z-index: 1000;
+}
+
+.spotify-corner iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
